@@ -5,7 +5,7 @@ using System.Reflection;
 
 namespace StackOverflow_Post
 {
-    class main
+    public class main
     {
         public static void Main(string[] args)
         {
@@ -17,9 +17,9 @@ namespace StackOverflow_Post
 
             post1.Votes = 5;
             post1.Title = "Updated Post Title";
-            post1.Describtion = "Updated description for my first post.";
-            post1.upvote();
-            post1.downvote();
+            post1.Description = "Updated description for my first post.";
+            post1.Upvote();
+            post1.Downvote();
             post2.Title = "Updated Second Post Title";
             Console.WriteLine(post2.Title);
         }

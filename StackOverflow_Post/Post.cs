@@ -31,19 +31,19 @@ namespace StackOverflow_Post
 
         public string Title { get; set; }
         
-        public string Describtion { get; set; }
+        public string Description { get; set; }
         
         public DateTime DateCreated { get; set; }
 
         public int Votes { get; set; }
 
 
-        public int upvote()
+        public int Upvote()
         {
             votes++;
             return votes;
         }
-        public int downvote()
+        public int Downvote()
         {
             if (votes > 0)
             {
