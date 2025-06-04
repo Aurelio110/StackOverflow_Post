@@ -20,7 +20,8 @@ namespace StackOverflow_Post
             post1.Describtion = "Updated description for my first post.";
             post1.upvote();
             post1.downvote();
-            Console.WriteLine(post1.Votes);
+            post2.Title = "Updated Second Post Title";
+            Console.WriteLine(post2.Title);
         }
     }
 }

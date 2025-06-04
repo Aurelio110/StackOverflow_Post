@@ -29,28 +29,14 @@ namespace StackOverflow_Post
        
 
 
-        public string Title
-        {
-            get { return title; }
-            set { title = value; }
-        }
+        public string Title { get; set; }
+        
+        public string Describtion { get; set; }
+        
+        public DateTime DateCreated { get; set; }
 
-        public string Describtion
-        {
-            get { return describtion; }
-            set { describtion = value; }
-        }
-        public DateTime DateCreated
-        {
-            get { return dateCreated; }
-            set { dateCreated = value; }
-        }
+        public int Votes { get; set; }
 
-        public int Votes
-        {
-            get { return votes; }
-            set { votes = value; }
-        }
 
         public int upvote()
         {
